@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEDVANCE × SalesLabX | 2025 Annual Business Review</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.3",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+      }
+    }
+    </script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Roboto', 'sans-serif'],
+            },
+            colors: {
+              slxBlue: '#1cafec',
+              slxMidnight: '#001c39',
+              slxDarkGray: '#434243',
+              slxWhiteSmoke: '#eef0f2',
+              slxAliceBlue: '#e9f4fa',
+              slxOrange: '#ff8000',
+              ledvance: '#FF6600',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        body { background-color: #eef0f2; overflow: hidden; font-family: 'Roboto', sans-serif; }
+        .h1-slx { font-size: 48pt; font-weight: 700; line-height: 1.1; }
+        .sub-light { font-size: 29pt; font-weight: 300; text-transform: uppercase; letter-spacing: 0.1em; }
+        .sub-bold { font-size: 29pt; font-weight: 700; }
+        .body-slx { font-size: 18pt; line-height: 1.4em; letter-spacing: 0; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
