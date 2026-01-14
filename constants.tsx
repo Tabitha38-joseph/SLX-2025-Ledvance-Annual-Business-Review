@@ -176,41 +176,32 @@ export const slides: SlideData[] = [
     }
   },
   {
-    id: 9,
-    title: "2026 Strategy",
-    icon: <TrendingUp size={18} />,
-    header: "2026 Strategic Evolution",
-    layout: 'strategy',
-    content: {
-      pillars: [
-        {
-          title: "Advanced Automation & Nurtures",
-          description: "Deploying sophisticated automation and DRIP campaigns. Readiness: Audited engine and segmented database are ready for behavioral-triggered series.",
-          icon: "zap"
-        },
-        {
-          title: "Hyper-Personalization",
-          description: "Tailored content for key personas (Distributors, Contractors, Engineers) enabled by our 2025 Business and Role Type field implementation.",
-          icon: "users"
-        },
-        {
-          title: "Strategic Lead Management",
-          description: "Implementing MQL Foundation and Lead Scoring. Readiness: Building transition pathways bridging marketing engagement to direct sales action.",
-          icon: "route"
-        },
-        {
-          title: "Content AI Engine",
-          description: "Building AI-powered content system to increase output of case studies and blog posts segmented by business type. Performance tracking identifies what resonates with each persona, enabling scaled, targeted content creation.",
-          icon: "edit"
-        },
-        {
-          title: "Commerce Cloud",
-          description: "Partnering to build Salesforce Commerce Cloud foundation and attribution infrastructure. Establishing frameworks to connect marketing engagement to commerce sales, creating measurable marketing revenue impact.",
-          icon: "shopping-cart"
-        }
-      ]
-    }
-  },
+  id: 9,
+  title: "2026 Strategy",
+  icon: <TrendingUp size={18} />,
+  header: "2026 Strategic Evolution",
+  layout: 'strategy',
+  content: {
+    pillars: [
+      {
+        title: "Advanced Automation & Nurtures",
+        description: "Deploying sophisticated automation and DRIP campaigns...",
+        icon: "zap"
+      },
+      // ... other pillars like Hyper-Personalization and Lead Management
+      {
+        title: "Content AI Engine",
+        description: "Building AI-powered content system to increase output...",
+        icon: "edit"
+      },
+      {
+        title: "Commerce Cloud",
+        description: "Partnering to build Salesforce Commerce Cloud foundation...",
+        icon: "shopping-cart"
+      }
+    ]
+  }
+},
   {
     id: 10,
     title: "Summary",
